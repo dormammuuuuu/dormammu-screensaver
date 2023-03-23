@@ -1,0 +1,24 @@
+{
+  "name": "dormammu-screensaver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tailwind:css": "postcss src/main.css -o src/index.css",
+    "start": "npm run tailwind:css && electron ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "electron": "^23.2.0",
+    "postcss": "^8.4.21",
+    "postcss-loader": "^7.1.0",
+    "tailwindcss": "^3.2.7"
+  },
+  "dependencies": {
+    "postcss-cli": "^10.1.0"
+  }
+}
